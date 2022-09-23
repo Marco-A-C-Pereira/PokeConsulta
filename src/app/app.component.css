@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.title{
+  font-size: 100px;
+  margin-bottom: 10%;
+
+
+  color: yellow;
+  text-shadow:
+   -2px -2px 0 #3279fd,
+    2px -2px 0 #3279fd,
+   -2px  2px 0 #3279fd,
+    2px  2px 0 #3279fd;
+}

@@ -1,0 +1,60 @@
+.wrapper{
+  display: flex;
+
+
+}
+
+.card {
+  border: 1px solid black;
+
+  width: 27vw;
+  max-width: 200px;
+  min-width: 160px;
+  height:33vh;
+  max-height: 300px;
+
+  background: #242424;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card__title {
+  color: white;
+  margin: 2% 0;
+}
+
+.card__sprite{
+  width: 90%;
+  height: 80%;
+  background-color: #616160;
+
+  display: flex;
+}
+
+.card__sprite > img {
+  align-self: center;
+  object-fit: cover;
+}
+
+.card__type{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 4% 0;
+
+  width: 100%;
+
+}
+
+.card__type > span {
+  color: white;
+  background: orange;
+  padding: 1%;
+  border-radius: 5px;
+}
+
