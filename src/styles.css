@@ -8,3 +8,16 @@
 html {
   background: #cccccc;
 }
+
+.container{
+  display: flex;
+}
+
+.container-col{
+  flex-direction: column;
+}
+
+.justify-center{
+  justify-content: center;
+}
+

@@ -1,3 +1,14 @@
-<!-- <input type="text" name="" id=""> -->
+<section>
+  <div class="container justify-center search-container">
+    <input type="text-container"
+    (input)="getPokemonSearch($any($event.target).value.toLowerCase())"
+    class=" poke_indent"
+    >
+    <button class="poke_indent"> Pesquisar </button>
+  </div>
 
-<app-card [pokemons]="pokemons"></app-card>
+  <ng-container *ngIf="hasPokemon; then cardBlock else errorBlock"></ng-container>
+
+  <ng-template #cardBlock> <app-card [pokemons]="pokemons"></app-card> </ng-template>
+  <ng-template #errorBlock> <app-error></app-error> </ng-template>
+</section>

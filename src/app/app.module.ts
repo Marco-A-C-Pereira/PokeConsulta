@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './components/consulta/card/card.component';
 import { ConsultaComponent } from './components/consulta/consulta.component';
+import { ErrorComponent } from './components/consulta/error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    ConsultaComponent
+    ConsultaComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

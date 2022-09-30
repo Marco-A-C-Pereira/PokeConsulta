@@ -1,0 +1,19 @@
+.search-container{
+  width: 100%;
+  margin-bottom: 3%;
+
+}
+
+.text-container{
+
+}
+
+.poke_indent{
+  border: 2px solid #DC0A2D;
+  background: #232323;
+  color: #DEDEDE;
+
+  font-weight: bold;
+
+  font-size: 20pt;
+}
